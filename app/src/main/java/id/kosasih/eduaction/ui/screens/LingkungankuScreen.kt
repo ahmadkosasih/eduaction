@@ -45,7 +45,7 @@ fun LingkungankuScreen() {
     ) {
         // Header
         Text(
-            text = "Lingkunganku",
+            text = "LingkunganKu",
             style = MaterialTheme.typography.headlineMedium,
             fontWeight = FontWeight.Bold
         )

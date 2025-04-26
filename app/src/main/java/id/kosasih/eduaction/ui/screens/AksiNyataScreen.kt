@@ -143,7 +143,7 @@ fun AksiNyataScreen() {
                 modifier = Modifier.padding(16.dp)
             ) {
                 Text(
-                    text = "Generator Laporan",
+                    text = "Unduh Laporan",
                     style = MaterialTheme.typography.titleLarge,
                     fontWeight = FontWeight.Bold
                 )
@@ -168,12 +168,12 @@ fun AksiNyataScreen() {
                     )
 
                     ReportFormatButton(
-                        text = "Excel",
+                        text = "DOC",
                         color = Color(0xFF4CAF50)
                     )
 
                     ReportFormatButton(
-                        text = "PowerPoint",
+                        text = "PPT",
                         color = Color(0xFFFF9800)
                     )
                 }
